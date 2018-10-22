@@ -4,5 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/request" level="application" />
+    <orderEntry type="library" name="@types/cheerio" level="application" />
   </component>
 </module>
