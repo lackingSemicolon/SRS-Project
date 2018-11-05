@@ -1,0 +1,10 @@
+.reelPoster {
+   display: inline-block;
+   display: flex	!important;
+   justify-content:space-between !important;
+}
+
+.moviePoster {
+	width: 50%	!important;
+	height: 50%	!important;
+}
