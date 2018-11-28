@@ -5,3 +5,8 @@
 .additional-link {
   color: black !important;
 }
+
+.box a img {
+  height: 289px;
+  width: 160px;
+}

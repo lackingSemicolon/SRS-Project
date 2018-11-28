@@ -30,4 +30,3 @@ Template.Edit_Stuff_Page.helpers({
     return Stuff;
   },
 });
-
