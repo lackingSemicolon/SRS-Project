@@ -33,6 +33,13 @@ export const StuffSchema = new SimpleSchema({
       group: 'Stuff',
     },
   },
+  Quantity: {
+    label: "Available",
+    type: Number,
+    autoform: {
+      group: 'Stuff',
+    },
+  },
 });
 
 Stuff.attachSchema(StuffSchema);

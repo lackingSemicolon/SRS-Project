@@ -4,9 +4,6 @@ import { Template } from 'meteor/templating';
 import { Stuff } from '../../api/stuff/stuff.js';
 
 Template.Movie_Info.helpers({
-  getDoc() {
-    return Stuff.findOne(FlowRouter.getParam('_id'));
-  },
   stuffCollection() {
     return Stuff;
   },
