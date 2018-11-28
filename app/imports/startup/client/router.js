@@ -8,6 +8,13 @@ FlowRouter.route('/', {
   },
 });
 
+FlowRouter.route('/movie-info:_id', {
+  name: 'Movie_Info',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Movie_Info_Page' });
+  },
+});
+
 FlowRouter.route('/list', {
   name: 'List_Stuff_Page',
   action() {

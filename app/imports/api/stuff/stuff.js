@@ -37,6 +37,15 @@ export const StuffSchema = new SimpleSchema({
       group: 'Stuff',
     },
   },
+  Poster: {
+    label: 'Poster',
+    type: String,
+    optional: false,
+    max: 150,
+    autoform: {
+      group: 'Stuff',
+    },
+  },
 });
 
 Stuff.attachSchema(StuffSchema);

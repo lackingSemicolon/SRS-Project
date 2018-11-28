@@ -1,0 +1,14 @@
+<template name="Movie_Info">
+  {{#autoForm
+  collection=stuffCollection
+  template="semanticUI"
+  id="MovieInfoForm"
+  type="insert"
+  doc=getDoc}}
+    <fieldset style="border: 0">
+      <div class="ui fluid container">
+        {{ afQuickField name='Poster'}}
+      </div>
+    </fieldset>
+  {{/autoForm}}
+</template>
