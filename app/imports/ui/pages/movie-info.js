@@ -10,4 +10,7 @@ Template.Movie_Info.helpers({
   stuffCollection() {
     return Stuff;
   },
+  stuffList() {
+    return Stuff.find(FlowRouter.getParam('_id'));
+  },
 });

@@ -83,15 +83,17 @@
 
 
       <h1 id="movies">Blockbuster Action & Adventure</h1>
+
       <div class="box">
-        <a href="{{pathFor 'Movie_Info' _id=stuff._id}}"><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m1.PNG?raw=true" alt=""></a>
-        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m2.PNG?raw=true" alt=""></a>
+        {{#each stuff in stuffList}}
+        <a href="{{pathFor 'Movie_Info' _id=stuff._id}}"><img src={{stuff.HomePoster}} alt=""></a>
+<!--        <a href="{{pathFOr 'Movie_Info' _id=stuff._id}}"><img src={{stuff.HomePoster}} alt=""></a>
         <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m3.PNG?raw=true" alt=""></a>
         <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m4.PNG?raw=true" alt=""></a>
         <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m5.PNG?raw=true" alt=""></a>
-        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m6.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m6.PNG?raw=true" alt=""></a>-->
+        {{/each}}
       </div>
-
       <h1 id="originals">Netflix Originals</h1>
       <div class="box">
         <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>

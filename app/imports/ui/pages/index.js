@@ -8,6 +8,7 @@ import './movie-info.html';
 import './movie-info.js';
 
 import './home-page.html';
+import './home-page.js';
 
 import './list-stuff-page.html';
 import './list-stuff-page.js';

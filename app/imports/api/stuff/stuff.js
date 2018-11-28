@@ -9,29 +9,9 @@ export const Stuff = new Mongo.Collection('Stuff');
  * Create the schema for Stuff
  */
 export const StuffSchema = new SimpleSchema({
-  name: {
-    label: 'Name',
-    type: String,
-    optional: false,
-    max: 20,
-    autoform: {
-      group: 'Stuff',
-      placeholder: 'Bicycle',
-    },
-  },
-  quantity: {
-    label: 'Quantity',
-    type: Number,
-    optional: false,
-    autoform: {
-      group: 'Stuff',
-      placeholder: '3',
-    },
-  },
   Title: {
     label: 'Title',
     type: String,
-    optional: false,
     max: 100,
     autoform: {
       group: 'Stuff',
@@ -40,8 +20,15 @@ export const StuffSchema = new SimpleSchema({
   Poster: {
     label: 'Poster',
     type: String,
-    optional: false,
-    max: 150,
+    max: 250,
+    autoform: {
+      group: 'Stuff',
+    },
+  },
+  HomePoster: {
+    label: 'HomePoster',
+    type: String,
+    max: 250,
     autoform: {
       group: 'Stuff',
     },
