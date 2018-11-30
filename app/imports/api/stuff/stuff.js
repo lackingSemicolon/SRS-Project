@@ -34,7 +34,7 @@ export const StuffSchema = new SimpleSchema({
     },
   },
   Quantity: {
-    label: "Available",
+    label: 'Available',
     type: Number,
     autoform: {
       group: 'Stuff',
