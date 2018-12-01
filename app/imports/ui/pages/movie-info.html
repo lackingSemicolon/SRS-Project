@@ -1,9 +1,12 @@
 <template name="Movie_Info">
     <fieldset style="border: 0">
-      <div class="ui fluid container">
+      <div class="ui center aligned fluid container">
         {{#each stuff in stuffList}}
         <img src={{stuff.Poster}} >
         {{/each}}
       </div>
+      {{# if currentUser}}
+      <button id="rentButton" style="margin-top: 15px" type="submit" class="ui button">Rent</button>
+      {{/ if}}
     </fieldset>
 </template>

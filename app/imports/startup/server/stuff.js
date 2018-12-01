@@ -1,4 +1,5 @@
 import { _ } from 'meteor/underscore';
+import { Meteor } from 'meteor/meteor';
 import { Stuff } from '../../api/stuff/stuff.js';
 import { Movies } from './movies.json';
 
@@ -71,3 +72,9 @@ function readJSON(path) {
   xhr.send();
 }
 */
+
+Meteor.methods({
+  quantUpdate(quant) {
+    Stuff.update({ _id: Meteor.userId }, { $set: { Quantity: quant }});
+  },
+});
