@@ -7,7 +7,9 @@ Template.Home_Page.helpers({
     return Movie.find({}, { sort: { Genre: 'drama' } });
     // return Drama;
   },
-
+  horrorList() {
+    return Movie.find({ Genre: 'Horror' });
+  },
   /**
    * @returns {*} All of the Stuff documents.
    */

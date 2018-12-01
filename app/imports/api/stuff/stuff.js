@@ -87,13 +87,15 @@ export const MovieSchema = new SimpleSchema({
       group: 'Movie',
     },
   },
-  Genre: {
-    label: 'Genre',
-    type: String,
-    max: 100,
-    autoform: {
-      group: 'Movie',
+    Genre: {
+      label: 'Genre',
+      type: Array,
+      max: 100,
+      autoform: {
+        group: 'Movie',
+      },
     },
+    'Genre.$': { type: String },
   },
   Director: {
     label: 'Director',
