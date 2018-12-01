@@ -73,7 +73,6 @@
 
 
       <h1 id="movies">Blockbuster Action & Adventure</h1>
-
       <div class="box">
         {{#each stuff in stuffList}}
           <a href="{{pathFor 'Movie_Info' _id=stuff._id}}"><img src={{stuff.HomePoster}} alt=""></a>
@@ -82,6 +81,17 @@
         <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m4.PNG?raw=true" alt=""></a>
         <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m5.PNG?raw=true" alt=""></a>
         <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m6.PNG?raw=true" alt=""></a>-->
+        {{/each}}
+      </div>
+      <h1 id="movies">Drama</h1>
+      <div class="box">
+        {{#each movie in dramaList}}
+        <a href="{{pathFor 'Movie_Info' _id=movie._id}}"><img src={{movie.HomePoster}} alt=""></a>
+        <!--        <a href="{{pathFOr 'Movie_Info' _id=stuff._id}}"><img src={{stuff.HomePoster}} alt=""></a>
+      <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m3.PNG?raw=true" alt=""></a>
+      <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m4.PNG?raw=true" alt=""></a>
+      <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m5.PNG?raw=true" alt=""></a>
+      <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m6.PNG?raw=true" alt=""></a>-->
         {{/each}}
       </div>
       <h1 id="originals">Netflix Originals</h1>
