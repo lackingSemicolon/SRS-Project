@@ -1,10 +1,11 @@
 import { Template } from 'meteor/templating';
-import { Stuff, Movie } from '../../api/stuff/stuff.js';
+import { Stuff, Movie, Drama, Action, Horror } from '../../api/stuff/stuff.js';
 
 
 Template.Home_Page.helpers({
   dramaList() {
     return Movie.find({}, { sort: { Genre: 'drama' } });
+    // return Drama;
   },
 
   /**

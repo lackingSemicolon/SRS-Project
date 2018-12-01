@@ -1,18 +1,21 @@
 import { _ } from 'meteor/underscore';
 import { Meteor } from 'meteor/meteor';
-import { Stuff, Movie } from '../../api/stuff/stuff.js';
+import { Stuff, Movie, Drama, Action, Horror } from '../../api/stuff/stuff.js';
 
-/*
+
 import { Logger } from 'meteor/ostrio:logger';
 import { LoggerConsole } from 'meteor/ostrio:loggerconsole';
 
 const log = new Logger();
 (new LoggerConsole(log)).enable();
-*/
 /**
  * A list of Stuff to pre-fill the Collection.
  * @type {*[]}
  */
+let dramaLim = 5,
+  actionLim = dramaLim,
+  horrorLim = dramaLim;
+
 
 const stuffSeeds = [
   {
@@ -1542,6 +1545,33 @@ const movieList = [
 /**
  * Initialize the Stuff collection if empty with seed data.
  */
+
+function getCategory (movie) {
+  //     log.info(movie.Title);
+  const genre = JSON.stringify(movie.Genre);
+  if (genre.includes('Drama')) {
+    if (dramaLim > 0) {
+      log.info(`drama: ${movie.Title}`);
+      Drama.insert(movie);
+      dramaLim--;
+    }
+  }
+  if (genre.includes('Action')) {
+    if (actionLim > 0) {
+      log.info(`action: ${movie.Title}`);
+      Action.insert(movie);
+      actionLim--;
+    }
+  }
+  if (genre.includes('Horror')) {
+    if (horrorLim > 0) {
+      log.info(`horror: ${movie.Title}`);
+      Horror.insert(movie);
+      horrorLim--;
+    }
+  }
+}
+
 if (Stuff.find().count() === 0) {
   _.each(stuffSeeds, function seedStuffs(stuff) {
     Stuff.insert(stuff);
@@ -1552,6 +1582,7 @@ Meteor.startup(function () {
     _.each(movieList, function seedMovies(movie) {
       //     log.info(movie.Title);
       Movie.insert(movie);
+      getCategory(movie);
     });
   }
 });

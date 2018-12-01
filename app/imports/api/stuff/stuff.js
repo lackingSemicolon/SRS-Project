@@ -5,6 +5,9 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 
 export const Stuff = new Mongo.Collection('Stuff');
 export const Movie = new Mongo.Collection('Movie');
+export const Drama = new Mongo.Collection('Drama');
+export const Action = new Mongo.Collection('Action');
+export const Horror = new Mongo.Collection('Horror');
 
 /**
  * Create the schema for Stuff
@@ -167,3 +170,6 @@ export const MovieSchema = new SimpleSchema({
 
 Stuff.attachSchema(StuffSchema);
 Movie.attachSchema(MovieSchema);
+Drama.attachSchema(MovieSchema);
+Action.attachSchema(MovieSchema);
+Horror.attachSchema(MovieSchema);
