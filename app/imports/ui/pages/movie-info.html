@@ -1,30 +1,23 @@
 <template name="Movie_Info">
     <fieldset style="border: 0">
-        {{#each movie in movieList}}
- <!--       <div class="ui three column center aligned fluid divided grid">
-          <div class="stretched row">
-            <div class="column">
-              <img src={{movie.Poster}} >
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              <a>{{movie.Plot}}</a>
-            </div>
-            <div class="ui segment">
-              <a>{{movie.Actors}}</a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
 
-            </div>
-            <div class="ui segment">
-
-            </div>
+      {{#each movie in movieList}}
+      <div class="ui left aligned fluid centered grid container" style="margin: 50px; padding-top: 50px;">
+        <div class="five wide column" style="border: 0;">
+          <img class="ui fluid image" src={{movie.Poster}} style="max-width: 100%; height: 450px;">
+        </div>
+        <div class="six wide column">
+          <div class="ui compact segment" style="background-color: #141414; color: white; margin-top: -20px">
+            <h2 style="font-size: 35px">{{movie.Title}}</h2>
+            <p style="font-size: 15px; margin-top: 10px;">{{movie.Rated}} | {{movie.Released}} | {{movie.Runtime}}</p>
           </div>
-        </div> -->
-      <div class="rb-title_detail-wrapper m-l:20 m-r:20 m-l:30@md m-r:30@md p-t:40 m-b:60">
+          <div class="ui compact segment" style="background-color: #141414; color: white;">
+
+          </div>
+        </div>
+      </div>
+      {{/each}}
+<!--      <div class="rb-title_detail-wrapper m-l:20 m-r:20 m-l:30@md m-r:30@md p-t:40 m-b:60">
         <div class="rb-title_detail max-w:1200@lg">
           <div class="rb-title_detail-heading m-b:20">
             <h1 class="fs:30 ff:MuseoSlab fw:300 m:0 m-b 10 fs:36@md fs50@lg lh:36 lh:40@md lh:58@lg">
@@ -38,8 +31,8 @@
             </div>
           </div>
         </div>
-      </div>
-        {{/each}}
+      </div> -->
+
       {{# if currentUser}}
       <button id="rentButton" style="margin-top: 15px" type="submit" class="ui button">Rent</button>
       {{/ if}}

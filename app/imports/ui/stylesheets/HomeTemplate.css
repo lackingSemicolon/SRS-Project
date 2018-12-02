@@ -157,13 +157,13 @@ header {
 }
 
 
-/* FOOTER */
+/* FOOTER
 footer {
   padding: 20px;
   text-align: center;
   color: var(--dark);
   margin: 10px;
-}
+}*/
 
 /* MEDIA QUERIES */
 
@@ -284,52 +284,4 @@ footer {
 
 
 
-}
-
-.fl-dr\:row {
-  flex-direction: row;
-}
-
-.d\:flex {
-  display: flex;
-}
-
-.fw\:500 {
-  font-weight: 500;
-}
-
-.ff\:MuseoSlab {
-  font-family: MuseoSlab;
-}
-
-.fs\:18 {
-  font-size: 18px;
-}
-
-.fs\:14 {
-  font-size: 14px;
-}
-
-.fl-ai\:center {
-  align-items: center;
-}
-
-.rb-title_detail-boxart {
-  float: none;
-  order: 0;
-  width: auto;
-}
-
-.rb-title_detail-boxart {
-  grid-area: boxart;
-  top: 0;
-  position: static;
-}
-
-.m-b\:20 {
-  margin-bottom: 20px;
-}
-
-.m\:0 {
-  margin: 0;
 }
