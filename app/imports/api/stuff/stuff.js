@@ -95,8 +95,7 @@ export const MovieSchema = new SimpleSchema({
         group: 'Movie',
       },
     },
-    'Genre.$': { type: String },
-  },
+  'Genre.$': { type: String },
   Director: {
     label: 'Director',
     type: String,

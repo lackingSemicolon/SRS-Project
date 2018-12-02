@@ -1,17 +1,5 @@
 <template name="Home_Page">
-  <head>
-    <!--SOURCE PAGE CREDIT GOES TO Carlos Avila: https://codepen.io/cb2307/pen/XYxyeY -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Netflix</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="HomeTemplate.css">
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>-->
-  </head>
+
   <div class="wrapper">
 
     <!-- HEADER
@@ -83,20 +71,22 @@
         <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m6.PNG?raw=true" alt=""></a>-->
         {{/each}}
       </div>
-      <h1 id="movies">Drama</h1>
+      <h1 id="dramaMovies">Drama</h1>
       <div class="box">
         {{#each movie in dramaList}}
         <a href="{{pathFor 'Movie_Info' _id=movie._id}}"><img src={{movie.HomePoster}} alt=""></a>
         {{/each}}
       </div>
-      <h1 id="originals">Netflix Originals</h1>
+      <h1 id="horrorMovies">Horror</h1>
       <div class="box">
-        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>
-        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
+        {{#each movie in horrorList}}
+        <a href="{{pathFor 'Movie_Info' _id=movie._id}}"><img src={{movie.HomePoster}} alt=""></a>
+        {{/each}}
+<!--        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
         <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o3.PNG?raw=true" alt=""></a>
         <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o4.PNG?raw=true" alt=""></a>
         <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o5.PNG?raw=true" alt=""></a>
-        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true" alt=""></a> -->
       </div>
     </section>
     <!-- END OF MAIN CONTAINER -->
