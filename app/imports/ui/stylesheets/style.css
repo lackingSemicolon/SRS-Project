@@ -29,3 +29,13 @@ a:link, a:visited, a:hover, a:active {
 .navHead {
   padding-right: 50px;
 }
+
+.font15 {
+  font-size: 15px;
+}
+
+.DescStyle {
+  background-color: #141414;
+  color: white;
+  margin-top: -10px;
+}

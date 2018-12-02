@@ -4,31 +4,31 @@
       <div class="ui left aligned fluid centered grid container" style="margin: 50px; padding-top: 50px">
         <div class="five wide column" style="border: 0;">
           <img class="ui fluid image" src={{movie.Poster}} style="max-width: 100%; height: 450px;">
-            {{# if currentUser}}
-              <button id="rentButton" style="border: 0; margin-left: 10px" type="submit" class="ui button">Rent</button>
-            {{/ if}}
+          {{# if currentUser}}
+            <button id="rentButton" style="border: 0; margin-left: 10px" type="submit" class="ui button">Rent</button>
+          {{/ if}}
         </div>
         <div class="eight wide column">
           <div class="ui compact segment" style="background-color: #141414; color: white; margin-top: -23px">
             <h2 style="font-size: 35px">{{movie.Title}}</h2>
-            <p style="font-size: 15px; margin-top: 10px;">{{movie.Rated}} | {{movie.Released}} | {{movie.Runtime}}</p>
+            <p class="DescSize" style=" margin-top: 10px;">{{movie.Rated}} | {{movie.Released}} | {{movie.Runtime}}</p>
           </div>
 
-          <div class="ui compact segment" style="background-color: #141414; color: white; margin-top: -10px">
+          <div class="ui compact segment DescStyle">
             <h2>Summary</h2>
-            <p style="font-size: 15px">{{movie.Plot}}</p>
+            <p class="font15">{{movie.Plot}}</p>
           </div>
-          <div class="ui compact segment" style="background-color: #141414; color: white; margin-top: -10px">
+          <div class="ui compact segment DescStyle">
             <h2>Actors:</h2>
-            <p style="font-size: 15px">{{movie.Actors}}</p>
+            <p class="font15">{{movie.Actors}}</p>
           </div>
-          <div class="ui compact segment" style="background-color: #141414; color: white; margin-top: -10px">
+          <div class="ui compact segment DescStyle">
             <h2>Director:</h2>
-            <p style="font-size: 15px">{{movie.Director}}</p>
+            <p class="font15">{{movie.Director}}</p>
           </div>
         </div>
       </div>
- <!--     {{# if currentUser}}
+      <!--     {{# if currentUser}}
       <button id="rentButton" style="margin-top: 15px" type="submit" class="ui button">Rent</button>
       {{/ if}} -->
     </fieldset>
