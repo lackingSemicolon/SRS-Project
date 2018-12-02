@@ -15,7 +15,8 @@
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .aboutPage a {
@@ -23,11 +24,14 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .aboutPageInfo {
-  padding: 0 30% 0 30%;
+  padding: 0 30% 0 30% !important;
+  background-color: #141414 !important;
+  color: white !important;
+  font-weight: normal !important;
 }
 
 .navHead {
-  padding-right: 50px;
+  padding-right: 50px !important;
 }
 
 .font15 {
@@ -35,7 +39,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .DescStyle {
-  background-color: #141414;
+  background-color: #141414 !important;
   color: white;
   margin-top: -10px;
 }

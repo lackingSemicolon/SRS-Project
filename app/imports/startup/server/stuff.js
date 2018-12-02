@@ -1589,6 +1589,7 @@ Meteor.startup(function () {
 
 Meteor.methods({
   quantUpdate(quant) {
+    console.log(quant);
     Movie.update({ _id: Meteor.userId }, { $set: { Quantity: quant } });
   },
 });
