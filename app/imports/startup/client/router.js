@@ -36,6 +36,12 @@ FlowRouter.route('/stuff/:_id', {
   },
 });
 */
+FlowRouter.route('/about', {
+  name: 'About_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'About_Page' });
+  },
+});
 FlowRouter.notFound = {
   action() {
     BlazeLayout.render('App_Body', { main: 'App_Not_Found' });

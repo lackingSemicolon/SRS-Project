@@ -1,11 +1,12 @@
 <template name="Header">
   <header>
-    <div class="netflixLogo">
-      <a id="logo" href="#home"><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/logo.PNG?raw=true" alt="Logo Image"></a>
+    <div class="netflixLogo" style="margin-top: -10px;">
+      <!--<a id="logo" href="#home"><img src="https://cdn.discordapp.com/attachments/496068820956479498/518587430077595736/Yellix_Logo_1.png" alt="Logo Image"></a>-->
+      <a class="logo" href="#home" style="color: yellow;">Yellix</a>
     </div>
     <nav class="main-nav">
-      <a class="item" href="{{pathFor 'Home_Page'}}">Home</a>
-      <a class="item" href="{{pathFor 'About_Page'}}">About</a>
+      <a class="item navHead" href="{{pathFor 'Home_Page'}}">Home</a>
+      <a class="item navHead" href="{{pathFor 'About_Page'}}">About</a>
     </nav>
       {{#if currentUser}}
         <a class="{{ isActiveRoute 'Add_Stuff_Page'}} item" href="{{ pathFor 'Add_Stuff_Page' }}">Add Stuff </a>

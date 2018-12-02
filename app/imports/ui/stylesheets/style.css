@@ -6,3 +6,22 @@
   color: black !important;
 }
 
+.navHead {
+  font-size: 30px;
+}
+.logo {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: none;
+}
+
+.aboutPage a {
+  text-align: center  !important;
+}
+
+.aboutPageInfo {
+  padding: 0 30% 0 30%;
+}
