@@ -14,34 +14,21 @@ FlowRouter.route('/movie-info/:_id', {
     BlazeLayout.render('App_Body', { main: 'Movie_Info' });
   },
 });
-/*
-FlowRouter.route('/list', {
-  name: 'List_Stuff_Page',
+
+FlowRouter.route('/search-page', {
+  name: 'Search_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'List_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'Search_Page' });
   },
 });
 
-FlowRouter.route('/add', {
-  name: 'Add_Stuff_Page',
-  action() {
-    BlazeLayout.render('App_Body', { main: 'Add_Stuff_Page' });
-  },
-});
-
-FlowRouter.route('/stuff/:_id', {
-  name: 'Edit_Stuff_Page',
-  action() {
-    BlazeLayout.render('App_Body', { main: 'Edit_Stuff_Page' });
-  },
-});
-*/
 FlowRouter.route('/about', {
   name: 'About_Page',
   action() {
     BlazeLayout.render('App_Body', { main: 'About_Page' });
   },
 });
+
 FlowRouter.notFound = {
   action() {
     BlazeLayout.render('App_Body', { main: 'App_Not_Found' });

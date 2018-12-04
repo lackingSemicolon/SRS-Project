@@ -1,0 +1,14 @@
+<template name="Search_Page">
+  <fieldset style="border: 0">
+    <br><br><br><br>
+<!-- nothing shows up right now, still need to figure out how to pass
+      search results to this page -->
+    {{#each movie in movieList}}
+      <div class="ui centered grid container">
+        <div class="five wide column" style="border: 0;">
+          <img class="ui fluid image" src={{movie.Poster}} style="max-width: 100%; height: 450px;">
+        </div>
+      </div>
+    {{/each}}
+  </fieldset>
+</template>

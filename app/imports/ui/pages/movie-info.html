@@ -5,26 +5,27 @@
         <div class="five wide column" style="border: 0;">
           <img class="ui fluid image" src={{movie.Poster}} style="max-width: 100%; height: 450px;">
           {{# if currentUser}}
-            <button id="rentButton" style="border: 0; margin-left: 10px" type="submit" class="ui button">Rent</button>
+            <button id="rentButton" style="border: 0; margin-left: 10px;" type="submit" class="ui red button">Rent</button>
           {{/ if}}
         </div>
         <div class="eight wide column">
-          <div class="ui compact segment" style="background-color: #141414; color: white; margin-top: -23px">
-            <h2 style="font-size: 35px">{{movie.Title}}</h2>
-            <p class="DescSize" style=" margin-top: 10px;">{{movie.Rated}} | {{movie.Released}} | {{movie.Runtime}}</p>
-          </div>
-
-          <div class="ui compact segment DescStyle">
-            <h2>Summary</h2>
-            <p class="font15">{{movie.Plot}}</p>
+          <div class="ui compact segment" style="background-color: #141414; color: white; margin-top: -23px; margin-bottom: -23px">
+            <h2 style="font-size: 35px">{{movie.Title}}
+              <div class="sub header DescSize" style="font-size: 15px; margin-top: -5px;">IMDB Rating: {{movie.imdbRating}}</div>
+              <div class="DescSize" style="font-size: 15px; margin-top: -5px">{{movie.Rated}} | {{movie.Released}} | {{movie.Runtime}}</div>
+            </h2>
           </div>
           <div class="ui compact segment DescStyle">
-            <h2>Actors:</h2>
-            <p class="font15">{{movie.Actors}}</p>
+            <h2>Summary:</h2>
+            <p class="font15" style="margin-top: -5px">{{movie.Plot}}</p>
           </div>
           <div class="ui compact segment DescStyle">
-            <h2>Director:</h2>
-            <p class="font15">{{movie.Director}}</p>
+            <h2 style="margin-top: -5px">Director:</h2>
+            <p class="font15" style="margin-top: -5px">{{movie.Director}}</p>
+          </div>
+          <div class="ui compact segment DescStyle">
+            <h2 style="margin-top: -5px">Actors:</h2>
+            <p class="font15" style="margin-top: -5px">{{movie.Actors}}</p>
           </div>
         </div>
       </div>

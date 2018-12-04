@@ -12,7 +12,13 @@
       {{/if}}
     </nav>
     <nav class="sub-nav">
-      <a class="{{ isActiveRoute 'Search_Page' }} item" href="{{ pathFor 'Search_Page' }}"><i class="fas fa-search sub-nav-logo"></i></a>
+      <!-- looks weird right now still need to finalize layout -->
+          <form>
+            <div class="ui action input">
+            <a><input  name="searchBar" type="text" placeholder="Search...">
+            <button type="submit"><i class="fas fa-search sub-nav-logo"></i></button></a>
+            </div>
+          </form>
       <a href="#" class="right aligned item">{{> loginButtons align="right"}} </a>
     </nav>
   </header>

@@ -1588,8 +1588,18 @@ Meteor.startup(function () {
 });
 
 Meteor.methods({
-  quantUpdate(quant) {
-    console.log(quant);
-    Movie.update({ _id: Meteor.userId }, { $set: { Quantity: quant } });
+  quantUpdate({ id, currentQuantity }) {
+    let quant = currentQuantity;
+ //   console.log(quant);
+    Movie.update({ _id: id }, { $set: { Quantity: quant } });
   },
+  /*
+  searchSubmit(searchParam) {
+    console.log(searchParam);
+    let result = Movie.find({ Title: searchParam });
+  },
+  searchPageHelp() {
+
+  },
+  */
 });

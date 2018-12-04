@@ -14,3 +14,6 @@ import './list-stuff-page.html';
 import './list-stuff-page.js';
 
 import './about-page.html';
+
+import './search-page.html';
+import './search-page.js';
