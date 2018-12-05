@@ -65,7 +65,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_SX300.jpg',
-    imdbRating: '7.8',
+    imdbRating: 7.8,
     Quantity: 100,
   },
   {
@@ -82,7 +82,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg',
-    imdbRating: '8.5',
+    imdbRating: 8.5,
     Quantity: 100,
   }, {
     Title: 'The Cloverfield Paradox',
@@ -98,7 +98,7 @@ const movieList = [
     Language: 'English, Mandarin',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTAwOTIxMDA0MjZeQTJeQWpwZ15BbWU4MDg1MjgzNzQz._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTAwOTIxMDA0MjZeQTJeQWpwZ15BbWU4MDg1MjgzNzQz._V1_SX300.jpg',
-    imdbRating: '5.6',
+    imdbRating: 5.6,
     Quantity: 100,
   }, {
     Title: 'The Predator',
@@ -114,7 +114,7 @@ const movieList = [
     Language: 'English, Spanish',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjM5MDk2NDIxMF5BMl5BanBnXkFtZTgwNjU5NDk3NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjM5MDk2NDIxMF5BMl5BanBnXkFtZTgwNjU5NDk3NTM@._V1_SX300.jpg',
-    imdbRating: '5.9',
+    imdbRating: 5.9,
     Quantity: 100,
   }, {
     Title: 'Proud Mary',
@@ -130,7 +130,7 @@ const movieList = [
     Language: 'English, Russian',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjA1MjI3MDU1MF5BMl5BanBnXkFtZTgwMjYwMTkxNDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjA1MjI3MDU1MF5BMl5BanBnXkFtZTgwMjYwMTkxNDM@._V1_SX300.jpg',
-    imdbRating: '4.9',
+    imdbRating: 4.9,
     Quantity: 100,
   }, {
     Title: 'Slender Man',
@@ -146,7 +146,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjE0MzcwMDAyNl5BMl5BanBnXkFtZTgwMzc4ODg0NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjE0MzcwMDAyNl5BMl5BanBnXkFtZTgwMzc4ODg0NDM@._V1_SX300.jpg',
-    imdbRating: '3.2',
+    imdbRating: 3.2,
     Quantity: 100,
   }, {
     Title: 'Mortal Engines',
@@ -162,7 +162,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNzY1MDA2OTQ0N15BMl5BanBnXkFtZTgwMTkzNjU2NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNzY1MDA2OTQ0N15BMl5BanBnXkFtZTgwMTkzNjU2NTM@._V1_SX300.jpg',
-    imdbRating: 'N/A',
+    imdbRating: 0,
     Quantity: 100,
   }, {
     Title: 'Escape Plan 2: Hades',
@@ -178,7 +178,7 @@ const movieList = [
     Language: 'English, Arabic',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTk4NjA0MjUyMF5BMl5BanBnXkFtZTgwMTEzNDQ1NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTk4NjA0MjUyMF5BMl5BanBnXkFtZTgwMTEzNDQ1NTM@._V1_SX300.jpg',
-    imdbRating: '3.8',
+    imdbRating: 3.8,
     Quantity: 100,
   }, {
     Title: 'The Darkest Minds',
@@ -194,7 +194,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTUxOGE3OTUtM2I2My00YzE3LTg2NDktZTI3NjE4NDdjMGFiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTUxOGE3OTUtM2I2My00YzE3LTg2NDktZTI3NjE4NDdjMGFiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
-    imdbRating: '5.6',
+    imdbRating: 5.6,
     Quantity: 100,
   }, {
     Title: 'LEGO DC Comics Super Heroes: Aquaman - Rage of Atlantis',
@@ -210,7 +210,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMzQyMjQ5YTUtNWY3Ni00NjZkLWExMmUtYTliYWRlNDIyZmJkXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMzQyMjQ5YTUtNWY3Ni00NjZkLWExMmUtYTliYWRlNDIyZmJkXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg',
-    imdbRating: '5.8',
+    imdbRating: 5.8,
     Quantity: 100,
   }, {
     Title: 'Mamma Mia! Here We Go Again',
@@ -226,7 +226,7 @@ const movieList = [
     Language: 'English, French, Greek',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjEwMTM3OTI1NV5BMl5BanBnXkFtZTgwNDk5NTY0NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjEwMTM3OTI1NV5BMl5BanBnXkFtZTgwNDk5NTY0NTM@._V1_SX300.jpg',
-    imdbRating: '7.0',
+    imdbRating: 7.0,
     Quantity: 100,
   }, {
     Title: 'Isle of Dogs',
@@ -242,7 +242,7 @@ const movieList = [
     Language: 'English, Japanese',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTYyOTUwNjAxM15BMl5BanBnXkFtZTgwODcyMzE0NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTYyOTUwNjAxM15BMl5BanBnXkFtZTgwODcyMzE0NDM@._V1_SX300.jpg',
-    imdbRating: '8.0',
+    imdbRating: 8.0,
     Quantity: 100,
   }, {
     Title: 'The Grinch',
@@ -258,7 +258,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BYmE5Yjg0MzktYzgzMi00YTFiLWJjYTItY2M5MmI1ODI4MDY3XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BYmE5Yjg0MzktYzgzMi00YTFiLWJjYTItY2M5MmI1ODI4MDY3XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
-    imdbRating: '6.3',
+    imdbRating: 6.3,
     Quantity: 100,
   }, {
     Title: 'Anon',
@@ -274,7 +274,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjE0MjIwMDE2MV5BMl5BanBnXkFtZTgwMzM5MDQzNTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjE0MjIwMDE2MV5BMl5BanBnXkFtZTgwMzM5MDQzNTM@._V1_SX300.jpg',
-    imdbRating: '6.1',
+    imdbRating: 6.1,
     Quantity: 100,
   }, {
     Title: 'The Nun',
@@ -290,7 +290,7 @@ const movieList = [
     Language: 'English, French, Romanian, Latin',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjEwMDE1NzI3M15BMl5BanBnXkFtZTgwNjg2NjExNjM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjEwMDE1NzI3M15BMl5BanBnXkFtZTgwNjg2NjExNjM@._V1_SX300.jpg',
-    imdbRating: '5.6',
+    imdbRating: 5.6,
     Quantity: 100,
   }, {
     Title: 'Bohemian Rhapsody',
@@ -306,7 +306,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNDg2NjIxMDUyNF5BMl5BanBnXkFtZTgwMzEzNTE1NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNDg2NjIxMDUyNF5BMl5BanBnXkFtZTgwMzEzNTE1NTM@._V1_SX300.jpg',
-    imdbRating: '8.4',
+    imdbRating: 8.4,
     Quantity: 100,
   }, {
     Title: '7 Days in Entebbe',
@@ -322,7 +322,7 @@ const movieList = [
     Language: 'English, German, French, Hebrew, Arabic',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjAwNDMzNzg0Nl5BMl5BanBnXkFtZTgwOTkxNjY2NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjAwNDMzNzg0Nl5BMl5BanBnXkFtZTgwOTkxNjY2NDM@._V1_SX300.jpg',
-    imdbRating: '5.8',
+    imdbRating: 5.8,
     Quantity: 100,
   }, {
     Title: 'Pacific Rim: Uprising',
@@ -338,7 +338,7 @@ const movieList = [
     Language: 'English, Mandarin, Russian',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjI3Nzg0MTM5NF5BMl5BanBnXkFtZTgwOTE2MTgwNTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjI3Nzg0MTM5NF5BMl5BanBnXkFtZTgwOTE2MTgwNTM@._V1_SX300.jpg',
-    imdbRating: '5.7',
+    imdbRating: 5.7,
     Quantity: 100,
   }, {
     Title: 'Den of Thieves',
@@ -354,7 +354,7 @@ const movieList = [
     Language: 'English, Polynesian',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMzYyODcwMDAyM15BMl5BanBnXkFtZTgwOTA4MjIwNDI@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMzYyODcwMDAyM15BMl5BanBnXkFtZTgwOTA4MjIwNDI@._V1_SX300.jpg',
-    imdbRating: '7.0',
+    imdbRating: 7.0,
     Quantity: 100,
   }, {
     Title: 'Johnny English Strikes Again',
@@ -370,7 +370,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjI4MjQ3MjI5MV5BMl5BanBnXkFtZTgwNjczMDE4NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjI4MjQ3MjI5MV5BMl5BanBnXkFtZTgwNjczMDE4NTM@._V1_SX300.jpg',
-    imdbRating: '6.6',
+    imdbRating: 6.6,
     Quantity: 100,
   }, {
     Title: 'BlacKkKlansman',
@@ -386,7 +386,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjUyOTE1NjI0OF5BMl5BanBnXkFtZTgwMTM4ODQ5NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjUyOTE1NjI0OF5BMl5BanBnXkFtZTgwMTM4ODQ5NTM@._V1_SX300.jpg',
-    imdbRating: '7.6',
+    imdbRating: 7.6,
     Quantity: 100,
   }, {
     Title: 'Red Sparrow',
@@ -402,7 +402,7 @@ const movieList = [
     Language: 'English, Russian',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTA3MDkxOTc4NDdeQTJeQWpwZ15BbWU4MDAxNzgyNTQz._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTA3MDkxOTc4NDdeQTJeQWpwZ15BbWU4MDAxNzgyNTQz._V1_SX300.jpg',
-    imdbRating: '6.6',
+    imdbRating: 6.6,
     Quantity: 100,
   }, {
     Title: 'Solo: A Star Wars Story',
@@ -418,7 +418,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BOTM2NTI3NTc3Nl5BMl5BanBnXkFtZTgwNzM1OTQyNTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BOTM2NTI3NTc3Nl5BMl5BanBnXkFtZTgwNzM1OTQyNTM@._V1_SX300.jpg',
-    imdbRating: '7.0',
+    imdbRating: 7.0,
     Quantity: 100,
   }, {
     Title: 'First Man',
@@ -434,7 +434,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMDBhOTMxN2UtYjllYS00NWNiLWE1MzAtZjg3NmExODliMDQ0XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMDBhOTMxN2UtYjllYS00NWNiLWE1MzAtZjg3NmExODliMDQ0XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg',
-    imdbRating: '7.7',
+    imdbRating: 7.7,
     Quantity: 100,
   }, {
     Title: 'Fifty Shades Freed',
@@ -450,7 +450,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTYxOTQ1MzI0Nl5BMl5BanBnXkFtZTgwMzgwMzIxNDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTYxOTQ1MzI0Nl5BMl5BanBnXkFtZTgwMzgwMzIxNDM@._V1_SX300.jpg',
-    imdbRating: '4.5',
+    imdbRating: 4.5,
     Quantity: 100,
   }, {
     Title: 'Hotel Transylvania 3: Summer Vacation',
@@ -466,7 +466,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNjA1MzU5MTY3OF5BMl5BanBnXkFtZTgwNTU5MDA3NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNjA1MzU5MTY3OF5BMl5BanBnXkFtZTgwNTU5MDA3NTM@._V1_SX300.jpg',
-    imdbRating: '6.3',
+    imdbRating: 6.3,
     Quantity: 100,
   }, {
     Title: 'Early Man',
@@ -482,7 +482,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BYWMxYWVjNzAtMTY0YS00YWQyLWExMGItMjUxODkwYzQyNzMwXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BYWMxYWVjNzAtMTY0YS00YWQyLWExMGItMjUxODkwYzQyNzMwXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg',
-    imdbRating: '6.1',
+    imdbRating: 6.1,
     Quantity: 100,
   }, {
     Title: 'Spider-Man: Into the Spider-Verse',
@@ -498,7 +498,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_SX300.jpg',
-    imdbRating: 'N/A',
+    imdbRating: 0,
     Quantity: 100,
   }, {
     Title: 'Maze Runner: The Death Cure',
@@ -514,7 +514,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTYyNzk3MDc2NF5BMl5BanBnXkFtZTgwMDk3OTM1NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTYyNzk3MDc2NF5BMl5BanBnXkFtZTgwMDk3OTM1NDM@._V1_SX300.jpg',
-    imdbRating: '6.3',
+    imdbRating: 6.3,
     Quantity: 100,
   }, {
     Title: 'Sirens & Serenity',
@@ -530,7 +530,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BZmQ0YTAwYjEtNjQyMy00NGMyLThkZDQtM2M3YThmM2I2NzQ3XkEyXkFqcGdeQXVyNTQzODA0Nzk@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BZmQ0YTAwYjEtNjQyMy00NGMyLThkZDQtM2M3YThmM2I2NzQ3XkEyXkFqcGdeQXVyNTQzODA0Nzk@._V1_SX300.jpg',
-    imdbRating: 'N/A',
+    imdbRating: 0,
     Quantity: 100,
   }, {
     Title: 'Overboard',
@@ -546,7 +546,7 @@ const movieList = [
     Language: 'English, Norwegian, Spanish, French',
     Poster: 'https://m.media-amazon.com/images/M/MV5BM2E5MWYwYTktMmIxZC00MWVkLTk4YjctNGU1OGVjMDIwNzM2XkEyXkFqcGdeQXVyNTAwODk1NzY@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BM2E5MWYwYTktMmIxZC00MWVkLTk4YjctNGU1OGVjMDIwNzM2XkEyXkFqcGdeQXVyNTAwODk1NzY@._V1_SX300.jpg',
-    imdbRating: '5.9',
+    imdbRating: 5.9,
     Quantity: 100,
   }, {
     Title: 'Game Night',
@@ -562,7 +562,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjI3ODkzNDk5MF5BMl5BanBnXkFtZTgwNTEyNjY2NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjI3ODkzNDk5MF5BMl5BanBnXkFtZTgwNTEyNjY2NDM@._V1_SX300.jpg',
-    imdbRating: '7.0',
+    imdbRating: 7.0,
     Quantity: 100,
   }, {
     Title: 'Acts of Violence',
@@ -578,7 +578,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjM3NzI1NDMyNl5BMl5BanBnXkFtZTgwNzUyMDgzNDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjM3NzI1NDMyNl5BMl5BanBnXkFtZTgwNzUyMDgzNDM@._V1_SX300.jpg',
-    imdbRating: '5.2',
+    imdbRating: 5.2,
     Quantity: 100,
   }, {
     Title: 'Father of the Year',
@@ -594,7 +594,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNTMzNjE4NjE2MV5BMl5BanBnXkFtZTgwOTc1NjE4NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNTMzNjE4NjE2MV5BMl5BanBnXkFtZTgwOTc1NjE4NTM@._V1_SX300.jpg',
-    imdbRating: '5.2',
+    imdbRating: 5.2,
     Quantity: 100,
   }, {
     Title: 'Mile 22',
@@ -610,7 +610,7 @@ const movieList = [
     Language: 'English, Russian, Indonesian',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNzUyODk4OTkxNF5BMl5BanBnXkFtZTgwMzY0MDgzNTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNzUyODk4OTkxNF5BMl5BanBnXkFtZTgwMzY0MDgzNTM@._V1_SX300.jpg',
-    imdbRating: '6.1',
+    imdbRating: 6.1,
     Quantity: 100,
   }, {
     Title: 'Alpha',
@@ -626,7 +626,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BODI4OTk1ODY3N15BMl5BanBnXkFtZTgwMDI1MTcwNjM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BODI4OTk1ODY3N15BMl5BanBnXkFtZTgwMDI1MTcwNjM@._V1_SX300.jpg',
-    imdbRating: '6.8',
+    imdbRating: 6.8,
     Quantity: 100,
   }, {
     Title: 'Jurassic World: Fallen Kingdom',
@@ -642,7 +642,7 @@ const movieList = [
     Language: 'English, Russian',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_SX300.jpg',
-    imdbRating: '6.3',
+    imdbRating: 6.3,
     Quantity: 100,
   }, {
     Title: 'Ready Player One',
@@ -658,7 +658,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg',
-    imdbRating: '7.6',
+    imdbRating: 7.6,
     Quantity: 100,
   }, {
     Title: 'The Strangers: Prey at Night',
@@ -674,7 +674,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTY1OTIwODgzMV5BMl5BanBnXkFtZTgwMzUyMDgzNDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTY1OTIwODgzMV5BMl5BanBnXkFtZTgwMzUyMDgzNDM@._V1_SX300.jpg',
-    imdbRating: '5.2',
+    imdbRating: 5.2,
     Quantity: 100,
   }, {
     Title: 'The 15:17 to Paris',
@@ -690,7 +690,7 @@ const movieList = [
     Language: 'English, French, Arabic, German, Dutch',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTY0NjUzNjYwOV5BMl5BanBnXkFtZTgwMzY1MDM0NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTY0NjUzNjYwOV5BMl5BanBnXkFtZTgwMzY1MDM0NDM@._V1_SX300.jpg',
-    imdbRating: '5.1',
+    imdbRating: 5.1,
     Quantity: 100,
   }, {
     Title: "The Girl in the Spider's Web: A New Dragon Tattoo Story",
@@ -706,7 +706,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BZWU4ZDI5OGEtOTdmZS00MmNiLWIzNjQtZGM1MGE0M2UzYTczXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BZWU4ZDI5OGEtOTdmZS00MmNiLWIzNjQtZGM1MGE0M2UzYTczXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
-    imdbRating: '5.8',
+    imdbRating: 5.8,
     Quantity: 100,
   }, {
     Title: 'Like Father',
@@ -722,7 +722,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTY1NDc3MzgxNV5BMl5BanBnXkFtZTgwNDc3MTQwNjM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTY1NDc3MzgxNV5BMl5BanBnXkFtZTgwNDc3MTQwNjM@._V1_SX300.jpg',
-    imdbRating: '6.1',
+    imdbRating: 6.1,
     Quantity: 100,
   }, {
     Title: 'The Meg',
@@ -738,7 +738,7 @@ const movieList = [
     Language: 'English, Mandarin',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjg0MzA4MDE0N15BMl5BanBnXkFtZTgwMzk3MzAwNjM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjg0MzA4MDE0N15BMl5BanBnXkFtZTgwMzk3MzAwNjM@._V1_SX300.jpg',
-    imdbRating: '5.9',
+    imdbRating: 5.9,
     Quantity: 100,
   }, {
     Title: 'Ralph Breaks the Internet',
@@ -754,7 +754,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTYyNzEyNDAzOV5BMl5BanBnXkFtZTgwNTk3NDczNjM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTYyNzEyNDAzOV5BMl5BanBnXkFtZTgwNTk3NDczNjM@._V1_SX300.jpg',
-    imdbRating: '8.4',
+    imdbRating: 8.4,
     Quantity: 100,
   }, {
     Title: 'Sicario: Day of the Soldado',
@@ -770,7 +770,7 @@ const movieList = [
     Language: 'English, Spanish, American Sign Language',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjgyOWRhMDctZTZlNC00M2I1LWI0NDQtYzlmODdmYjY2MThiXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjgyOWRhMDctZTZlNC00M2I1LWI0NDQtYzlmODdmYjY2MThiXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_SX300.jpg',
-    imdbRating: '7.2',
+    imdbRating: 7.2,
     Quantity: 100,
   }, {
     Title: 'Bumblebee',
@@ -786,7 +786,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BOTM3NzE5OTE1Nl5BMl5BanBnXkFtZTgwNzQwNjM3NjM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BOTM3NzE5OTE1Nl5BMl5BanBnXkFtZTgwNzQwNjM3NjM@._V1_SX300.jpg',
-    imdbRating: 'N/A',
+    imdbRating: 0,
     Quantity: 100,
   }, {
     Title: 'Smallfoot',
@@ -802,7 +802,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTc5NzI1NjY4MV5BMl5BanBnXkFtZTgwNDIxNTIyNDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTc5NzI1NjY4MV5BMl5BanBnXkFtZTgwNDIxNTIyNDM@._V1_SX300.jpg',
-    imdbRating: '6.8',
+    imdbRating: 6.8,
     Quantity: 100,
   }, {
     Title: 'Peter Rabbit',
@@ -818,7 +818,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMzI5MzZmZjItOGQzZC00NjNiLWFjMjQtMGNhY2NmNDMyNGM1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMzI5MzZmZjItOGQzZC00NjNiLWFjMjQtMGNhY2NmNDMyNGM1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
-    imdbRating: '6.6',
+    imdbRating: 6.6,
     Quantity: 100,
   }, {
     Title: 'Death Wish',
@@ -834,7 +834,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTkzNjU3MjE0MF5BMl5BanBnXkFtZTgwNTIyNDk0NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTkzNjU3MjE0MF5BMl5BanBnXkFtZTgwNTIyNDk0NDM@._V1_SX300.jpg',
-    imdbRating: '6.4',
+    imdbRating: 6.4,
     Quantity: 100,
   }, {
     Title: 'When We First Met',
@@ -850,7 +850,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMzM1OTI4NDM4Nl5BMl5BanBnXkFtZTgwMDAwODg2NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMzM1OTI4NDM4Nl5BMl5BanBnXkFtZTgwMDAwODg2NDM@._V1_SX300.jpg',
-    imdbRating: '6.4',
+    imdbRating: 6.4,
     Quantity: 100,
   }, {
     Title: 'Venom',
@@ -866,7 +866,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNzAwNzUzNjY4MV5BMl5BanBnXkFtZTgwMTQ5MzM0NjM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNzAwNzUzNjY4MV5BMl5BanBnXkFtZTgwMTQ5MzM0NjM@._V1_SX300.jpg',
-    imdbRating: '7.0',
+    imdbRating: 7.0,
     Quantity: 100,
   }, {
     Title: 'Christopher Robin',
@@ -882,7 +882,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjAzOTM2OTAyNF5BMl5BanBnXkFtZTgwNTg5ODg1NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjAzOTM2OTAyNF5BMl5BanBnXkFtZTgwNTg5ODg1NTM@._V1_SX300.jpg',
-    imdbRating: '7.6',
+    imdbRating: 7.6,
     Quantity: 100,
   }, {
     Title: "Ocean's Eight",
@@ -898,7 +898,7 @@ const movieList = [
     Language: 'English, Hindi, French, German, Chinese',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjAyNDEyMzc4Ml5BMl5BanBnXkFtZTgwMjEzNjM0NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjAyNDEyMzc4Ml5BMl5BanBnXkFtZTgwMjEzNjM0NTM@._V1_SX300.jpg',
-    imdbRating: '6.3',
+    imdbRating: 6.3,
     Quantity: 100,
   }, {
     Title: 'Life of the Party',
@@ -914,7 +914,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTkzOTk0MjYwM15BMl5BanBnXkFtZTgwNTE5ODQxNTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTkzOTk0MjYwM15BMl5BanBnXkFtZTgwNTE5ODQxNTM@._V1_SX300.jpg',
-    imdbRating: '5.5',
+    imdbRating: 5.5,
     Quantity: 100,
   }, {
     Title: 'The Spy Who Dumped Me',
@@ -930,7 +930,7 @@ const movieList = [
     Language: 'English, Russian, French',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNDY1MTA0NjgyN15BMl5BanBnXkFtZTgwMTEzNDQ4NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNDY1MTA0NjgyN15BMl5BanBnXkFtZTgwMTEzNDQ4NTM@._V1_SX300.jpg',
-    imdbRating: '6.1',
+    imdbRating: 6.1,
     Quantity: 100,
   }, {
     Title: 'Arizona',
@@ -946,7 +946,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTRkNjQyMWEtN2YwYy00MzVkLWEyMTEtN2Y3MWZiOGFkZWY2XkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTRkNjQyMWEtN2YwYy00MzVkLWEyMTEtN2Y3MWZiOGFkZWY2XkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_SX300.jpg',
-    imdbRating: '5.7',
+    imdbRating: 5.7,
     Quantity: 100,
   }, {
     Title: '12 Strong',
@@ -962,7 +962,7 @@ const movieList = [
     Language: 'English, Dari, Russian, Spanish, Uzbek',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNTEzMjk3NzkxMV5BMl5BanBnXkFtZTgwNjY2NDczNDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNTEzMjk3NzkxMV5BMl5BanBnXkFtZTgwNjY2NDczNDM@._V1_SX300.jpg',
-    imdbRating: '6.6',
+    imdbRating: 6.6,
     Quantity: 100,
   }, {
     Title: 'SuperFly',
@@ -978,7 +978,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMWU1Yzc0ZDUtNGFlZC00ZTFkLWIxMTEtZTQ5ZTliYzIxZWI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMWU1Yzc0ZDUtNGFlZC00ZTFkLWIxMTEtZTQ5ZTliYzIxZWI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
-    imdbRating: '5.1',
+    imdbRating: 5.1,
     Quantity: 100,
   }, {
     Title: 'Creed II',
@@ -994,7 +994,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjA3MTAxNDkxMl5BMl5BanBnXkFtZTgwMzI4MzE0NjM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjA3MTAxNDkxMl5BMl5BanBnXkFtZTgwMzI4MzE0NjM@._V1_SX300.jpg',
-    imdbRating: '8.7',
+    imdbRating: 8.7,
     Quantity: 100,
   }, {
     Title: 'A Quiet Place',
@@ -1010,7 +1010,7 @@ const movieList = [
     Language: 'English, American Sign Language',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_SX300.jpg',
-    imdbRating: '7.6',
+    imdbRating: 7.6,
     Quantity: 100,
   }, {
     Title: 'Mary Poppins Returns',
@@ -1026,7 +1026,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTY4MjYzOTc1NF5BMl5BanBnXkFtZTgwMTkyNzU5NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTY4MjYzOTc1NF5BMl5BanBnXkFtZTgwMTkyNzU5NDM@._V1_SX300.jpg',
-    imdbRating: 'N/A',
+    imdbRating: 0,
     Quantity: 100,
   }, {
     Title: 'Extinction',
@@ -1042,7 +1042,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTU5OTYzMzcwOF5BMl5BanBnXkFtZTgwNTkzMzk4NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTU5OTYzMzcwOF5BMl5BanBnXkFtZTgwNTkzMzk4NTM@._V1_SX300.jpg',
-    imdbRating: '5.8',
+    imdbRating: 5.8,
     Quantity: 100,
   }, {
     Title: 'Rampage',
@@ -1058,7 +1058,7 @@ const movieList = [
     Language: 'English, American Sign Language',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNDA1NjA3ODU3OV5BMl5BanBnXkFtZTgwOTg3MTIwNTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNDA1NjA3ODU3OV5BMl5BanBnXkFtZTgwOTg3MTIwNTM@._V1_SX300.jpg',
-    imdbRating: '6.2',
+    imdbRating: 6.2,
     Quantity: 100,
   }, {
     Title: 'Terminal',
@@ -1074,7 +1074,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BYmEzOGVmNWQtZDBiMC00OTk4LTg3OWQtMzc2MzgxNjlkY2JjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BYmEzOGVmNWQtZDBiMC00OTk4LTg3OWQtMzc2MzgxNjlkY2JjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
-    imdbRating: '5.3',
+    imdbRating: 5.3,
     Quantity: 100,
   }, {
     Title: 'A Star Is Born',
@@ -1090,7 +1090,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjE3MDQ0MTA3M15BMl5BanBnXkFtZTgwMDMwNDY2NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjE3MDQ0MTA3M15BMl5BanBnXkFtZTgwMDMwNDY2NTM@._V1_SX300.jpg',
-    imdbRating: '8.2',
+    imdbRating: 8.2,
     Quantity: 100,
   }, {
     Title: 'Winchester',
@@ -1106,7 +1106,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjI2OWE5OGItMTE4Yi00ZmIzLThjZDctNTU1OTMxMTc3Yjg4XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjI2OWE5OGItMTE4Yi00ZmIzLThjZDctNTU1OTMxMTc3Yjg4XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg',
-    imdbRating: '5.4',
+    imdbRating: 5.4,
     Quantity: 100,
   }, {
     Title: 'The Commuter',
@@ -1122,7 +1122,7 @@ const movieList = [
     Language: 'English, Spanish',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTc0NDg1MjI4OV5BMl5BanBnXkFtZTgwMDIwMTEwNDI@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTc0NDg1MjI4OV5BMl5BanBnXkFtZTgwMDIwMTEwNDI@._V1_SX300.jpg',
-    imdbRating: '6.3',
+    imdbRating: 6.3,
     Quantity: 100,
   }, {
     Title: 'Robin Hood',
@@ -1138,7 +1138,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BYzEyY2JjMzUtZWI2ZC00N2VhLTg5MjctYzExYmM1ZTQ3ZjEzXkEyXkFqcGdeQXVyNjQwODk0OTA@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BYzEyY2JjMzUtZWI2ZC00N2VhLTg5MjctYzExYmM1ZTQ3ZjEzXkEyXkFqcGdeQXVyNjQwODk0OTA@._V1_SX300.jpg',
-    imdbRating: 'N/A',
+    imdbRating: 0,
     Quantity: 100,
   }, {
     Title: 'Ant-Man and the Wasp',
@@ -1154,7 +1154,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BYjcyYTk0N2YtMzc4ZC00Y2E0LWFkNDgtNjE1MzZmMGE1YjY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BYjcyYTk0N2YtMzc4ZC00Y2E0LWFkNDgtNjE1MzZmMGE1YjY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
-    imdbRating: '7.2',
+    imdbRating: 7.2,
     Quantity: 100,
   }, {
     Title: 'Incredibles 2',
@@ -1170,7 +1170,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTEzNzY0OTg0NTdeQTJeQWpwZ15BbWU4MDU3OTg3MjUz._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTEzNzY0OTg0NTdeQTJeQWpwZ15BbWU4MDU3OTg3MjUz._V1_SX300.jpg',
-    imdbRating: '8.0',
+    imdbRating: 8.0,
     Quantity: 100,
   }, {
     Title: 'Fantastic Beasts: The Crimes of Grindelwald',
@@ -1186,7 +1186,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BZjFiMGUzMTAtNDAwMC00ZjRhLTk0OTUtMmJiMzM5ZmVjODQxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BZjFiMGUzMTAtNDAwMC00ZjRhLTk0OTUtMmJiMzM5ZmVjODQxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg',
-    imdbRating: '7.4',
+    imdbRating: 7.4,
     Quantity: 100,
   }, {
     Title: 'A Wrinkle in Time',
@@ -1202,7 +1202,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjMxNjQ5MTI3MV5BMl5BanBnXkFtZTgwMjQ2MTAyNDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjMxNjQ5MTI3MV5BMl5BanBnXkFtZTgwMjQ2MTAyNDM@._V1_SX300.jpg',
-    imdbRating: '4.2',
+    imdbRating: 4.2,
     Quantity: 100,
   }, {
     Title: 'Insidious: The Last Key',
@@ -1218,7 +1218,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTUxODU0NjQ2Nl5BMl5BanBnXkFtZTgwMTc4NDQ0MzI@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTUxODU0NjQ2Nl5BMl5BanBnXkFtZTgwMTc4NDQ0MzI@._V1_SX300.jpg',
-    imdbRating: '5.7',
+    imdbRating: 5.7,
     Quantity: 100,
   }, {
     Title: 'The Nutcracker and the Four Realms',
@@ -1234,7 +1234,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTgzOTc0NTE3Nl5BMl5BanBnXkFtZTgwODY4MDgwNjM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTgzOTc0NTE3Nl5BMl5BanBnXkFtZTgwODY4MDgwNjM@._V1_SX300.jpg',
-    imdbRating: '5.6',
+    imdbRating: 5.6,
     Quantity: 100,
   }, {
     Title: 'Blockers',
@@ -1250,7 +1250,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjE0ODIzNjkzMl5BMl5BanBnXkFtZTgwODQ3MzU4NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjE0ODIzNjkzMl5BMl5BanBnXkFtZTgwODQ3MzU4NDM@._V1_SX300.jpg',
-    imdbRating: '6.2',
+    imdbRating: 6.2,
     Quantity: 100,
   }, {
     Title: 'I Feel Pretty',
@@ -1266,7 +1266,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMGI3ZDRjZTQtMTMyYy00NGI4LWI2MjktNzMyMjg0NjQ2NTY0XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMGI3ZDRjZTQtMTMyYy00NGI4LWI2MjktNzMyMjg0NjQ2NTY0XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg',
-    imdbRating: '5.3',
+    imdbRating: 5.3,
     Quantity: 100,
   }, {
     Title: 'Peppermint',
@@ -1282,7 +1282,7 @@ const movieList = [
     Language: 'English, Spanish',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNWVlMjQ3MjItOWE3YS00YTYwLWE0ZDMtZWMyZWY1NzkxNWIwXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNWVlMjQ3MjItOWE3YS00YTYwLWE0ZDMtZWMyZWY1NzkxNWIwXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
-    imdbRating: '6.6',
+    imdbRating: 6.6,
     Quantity: 100,
   }, {
     Title: 'Samson',
@@ -1298,7 +1298,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BYThiMjg4ZDAtNjk5ZS00ZTUxLThmM2ItMGI0ZTE1NjRhNWNmXkEyXkFqcGdeQXVyNTQ3MjE4NTU@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BYThiMjg4ZDAtNjk5ZS00ZTUxLThmM2ItMGI0ZTE1NjRhNWNmXkEyXkFqcGdeQXVyNTQ3MjE4NTU@._V1_SX300.jpg',
-    imdbRating: '4.3',
+    imdbRating: 4.3,
     Quantity: 100,
   }, {
     Title: 'Skyscraper',
@@ -1314,7 +1314,7 @@ const movieList = [
     Language: 'English, Cantonese, Mandarin',
     Poster: 'https://m.media-amazon.com/images/M/MV5BOGM3MzQwYzItNDA1Ny00MzIyLTg5Y2QtYTAwMzNmMDU2ZDgxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BOGM3MzQwYzItNDA1Ny00MzIyLTg5Y2QtYTAwMzNmMDU2ZDgxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg',
-    imdbRating: '5.9',
+    imdbRating: 5.9,
     Quantity: 100,
   }, {
     Title: 'Black Panther',
@@ -1330,7 +1330,7 @@ const movieList = [
     Language: 'Swahili, Nama, English, Xhosa, Korean',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg',
-    imdbRating: '7.4',
+    imdbRating: 7.4,
     Quantity: 100,
   }, {
     Title: 'Ibiza',
@@ -1346,7 +1346,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTczMTA5ODMxOV5BMl5BanBnXkFtZTgwNTgwNDkzNTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTczMTA5ODMxOV5BMl5BanBnXkFtZTgwNTgwNDkzNTM@._V1_SX300.jpg',
-    imdbRating: '5.2',
+    imdbRating: 5.2,
     Quantity: 100,
   }, {
     Title: 'The Hurricane Heist',
@@ -1362,7 +1362,7 @@ const movieList = [
     Language: 'American Sign Language, English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMzg3Y2MyNjgtMzk4ZS00OTU3LWEwZmMtN2Y0NTdlZjU0NGFiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMzg3Y2MyNjgtMzk4ZS00OTU3LWEwZmMtN2Y0NTdlZjU0NGFiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
-    imdbRating: '5.0',
+    imdbRating: 5.0,
     Quantity: 100,
   }, {
     Title: 'Halloween',
@@ -1378,7 +1378,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMmMzNjJhYjUtNzFkZi00MWQ4LWJiMDEtYWM0NTAzNGZjMTI3XkEyXkFqcGdeQXVyOTE2OTMwNDk@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMmMzNjJhYjUtNzFkZi00MWQ4LWJiMDEtYWM0NTAzNGZjMTI3XkEyXkFqcGdeQXVyOTE2OTMwNDk@._V1_SX300.jpg',
-    imdbRating: '7.2',
+    imdbRating: 7.2,
     Quantity: 100,
   }, {
     Title: 'The Equalizer 2',
@@ -1394,7 +1394,7 @@ const movieList = [
     Language: 'English, French, Turkish, Hebrew',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTU2OTYzODQyMF5BMl5BanBnXkFtZTgwNjU3Njk5NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTU2OTYzODQyMF5BMl5BanBnXkFtZTgwNjU3Njk5NTM@._V1_SX300.jpg',
-    imdbRating: '6.9',
+    imdbRating: 6.9,
     Quantity: 100,
   }, {
     Title: 'Upgrade',
@@ -1410,7 +1410,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMjI0NzcyMjM5Ml5BMl5BanBnXkFtZTgwMzk2NzAyNTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMjI0NzcyMjM5Ml5BMl5BanBnXkFtZTgwMzk2NzAyNTM@._V1_SX300.jpg',
-    imdbRating: '7.6',
+    imdbRating: 7.6,
     Quantity: 100,
   }, {
     Title: 'Mission: Impossible - Fallout',
@@ -1426,7 +1426,7 @@ const movieList = [
     Language: 'English, French',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTk3NDY5MTU0NV5BMl5BanBnXkFtZTgwNDI3MDE1NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTk3NDY5MTU0NV5BMl5BanBnXkFtZTgwNDI3MDE1NTM@._V1_SX300.jpg',
-    imdbRating: '8.0',
+    imdbRating: 8.0,
     Quantity: 100,
   }, {
     Title: 'Annihilation',
@@ -1442,7 +1442,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTk2Mjc2NzYxNl5BMl5BanBnXkFtZTgwMTA2OTA1NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTk2Mjc2NzYxNl5BMl5BanBnXkFtZTgwMTA2OTA1NDM@._V1_SX300.jpg',
-    imdbRating: '6.9',
+    imdbRating: 6.9,
     Quantity: 100,
   }, {
     Title: 'The House with a Clock in Its Walls',
@@ -1458,7 +1458,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTk1MzM1ODEwOV5BMl5BanBnXkFtZTgwMTE0OTA4NTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTk1MzM1ODEwOV5BMl5BanBnXkFtZTgwMTE0OTA4NTM@._V1_SX300.jpg',
-    imdbRating: '6.2',
+    imdbRating: 6.2,
     Quantity: 100,
   }, {
     Title: 'Night School',
@@ -1474,7 +1474,7 @@ const movieList = [
     Language: 'English, French, Spanish',
     Poster: 'https://m.media-amazon.com/images/M/MV5BYzEyYzg5N2YtZmYzZC00OTg0LWE3ZmYtNDZhMGFkOTBjOTYxXkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BYzEyYzg5N2YtZmYzZC00OTg0LWE3ZmYtNDZhMGFkOTBjOTYxXkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_SX300.jpg',
-    imdbRating: '5.5',
+    imdbRating: 5.5,
     Quantity: 100,
   }, {
     Title: 'The First Purge',
@@ -1490,7 +1490,7 @@ const movieList = [
     Language: 'Spanish, English, French',
     Poster: 'https://m.media-amazon.com/images/M/MV5BYmVjMWJhMTYtMzUxMC00ODdhLTk3YzMtZDFhNGUyOGFhYTY0XkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BYmVjMWJhMTYtMzUxMC00ODdhLTk3YzMtZDFhNGUyOGFhYTY0XkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_SX300.jpg',
-    imdbRating: '5.1',
+    imdbRating: 5.1,
     Quantity: 100,
   }, {
     Title: 'Sherlock Gnomes',
@@ -1506,7 +1506,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BMTk4NzU3NzU2NV5BMl5BanBnXkFtZTgwNDc4NTI3NDM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BMTk4NzU3NzU2NV5BMl5BanBnXkFtZTgwNDc4NTI3NDM@._V1_SX300.jpg',
-    imdbRating: '5.0',
+    imdbRating: 5.0,
     Quantity: 100,
   }, {
     Title: 'Tomb Raider',
@@ -1522,7 +1522,7 @@ const movieList = [
     Language: 'English, Cantonese, Hindi',
     Poster: 'https://m.media-amazon.com/images/M/MV5BOTY4NDcyZGQtYmVlNy00ODgwLTljYTMtYzQ2OTE3NDhjODMwXkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BOTY4NDcyZGQtYmVlNy00ODgwLTljYTMtYzQ2OTE3NDhjODMwXkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_SX300.jpg',
-    imdbRating: '6.4',
+    imdbRating: 6.4,
     Quantity: 100,
   }, {
     Title: 'Tag',
@@ -1538,7 +1538,7 @@ const movieList = [
     Language: 'English',
     Poster: 'https://m.media-amazon.com/images/M/MV5BNzk4NDM3NjkwNF5BMl5BanBnXkFtZTgwNTk5MzkzNTM@._V1_SX300.jpg',
     HomePoster: 'https://m.media-amazon.com/images/M/MV5BNzk4NDM3NjkwNF5BMl5BanBnXkFtZTgwNTk5MzkzNTM@._V1_SX300.jpg',
-    imdbRating: '6.6',
+    imdbRating: 6.6,
     Quantity: 100,
   },
 ];

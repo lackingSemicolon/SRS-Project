@@ -154,8 +154,8 @@ export const MovieSchema = new SimpleSchema({
   },
   imdbRating: {
     label: 'Rating',
-    type: String,
-    max: 5,
+    type: Number,
+    decimal: true,
     autoform: {
       group: 'Movie',
     },

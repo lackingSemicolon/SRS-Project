@@ -26,30 +26,37 @@
 
       <h1 id="myList">Trending Now</h1>
       <div class="box">
-        {{#each stuff in trendingList}}
-          <a href="{{pathFor 'Movie_Info' _id=stuff._id}}"><img src={{stuff.HomePoster}} alt=""></a>
+        {{#each movie in trendingList}}
+          <a href="{{pathFor 'Movie_Info' _id=movie._id}}"><img src={{movie.HomePoster}} alt=""></a>
+        {{/each}}
+      </div>
+
+      <h1 id="highestRatedList">Highest Rated Movies</h1>
+      <div class="box">
+        {{#each movie in highestRatedList}}
+          <a href="{{pathFor 'Movie_Info' _id=movie._id}}"><img src={{movie.HomePoster}}></a>
         {{/each}}
       </div>
 
       <h1 id="tvShows">Here Are Good Laughs</h1>
       <div class="box">
-        {{#each stuff in comedyList}}
-          <a href="{{pathFor 'Movie_Info' _id=stuff._id}}"><img src={{stuff.HomePoster}} alt=""></a>
+        {{#each movie in comedyList}}
+          <a href="{{pathFor 'Movie_Info' _id=movie._id}}"><img src={{movie.HomePoster}} alt=""></a>
         {{/each}}
       </div>
 
         <h1 id="home">Having a Lady Friend Over?</h1>
         <div class="box">  <!-- image should be 288x163 -->
-          {{#each stuff in romanceList}}
-            <a href="{{pathFor 'Movie_Info' _id=stuff._id}}"><img src={{stuff.HomePoster}} alt=""></a>
+          {{#each movie in romanceList}}
+            <a href="{{pathFor 'Movie_Info' _id=movie._id}}"><img src={{movie.HomePoster}} alt=""></a>
           {{/each}}
         </div>
       </div>
 
       <h1 id="movies">Blockbuster Action & Adventure</h1>
       <div class="box">
-        {{#each stuff in actionList}}
-          <a href="{{pathFor 'Movie_Info' _id=stuff._id}}"><img src={{stuff.HomePoster}} alt=""></a>
+        {{#each movie in actionList}}
+          <a href="{{pathFor 'Movie_Info' _id=movie._id}}"><img src={{movie.HomePoster}} alt=""></a>
         {{/each}}
       </div>
       <h1 id="dramaMovies">Love Some Drama?</h1>

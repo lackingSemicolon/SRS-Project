@@ -1,32 +1,27 @@
 import { Template } from 'meteor/templating';
 import { Mongo } from 'meteor/mongo';
-import { Stuff, Movie, Drama, Action, Horror } from '../../api/stuff/stuff.js';
+import { Stuff, Movie } from '../../api/stuff/stuff.js';
 
 Template.Home_Page.helpers({
-  dramaList() {
+  dramaList() { // returns list of 6 movies sorted by genre: drama
     return Movie.find({ Genre: 'Drama' }, { limit: 6 });
-
-    // return Drama;
   },
-  horrorList() {
+  horrorList() { // returns list of 6 movies sorted by genre: horror
     return Movie.find({ Genre: 'Horror' }, { limit: 6 });
   },
-  actionList() {
+  actionList() { // returns list of 6 movies sorted by genre: action
     return Movie.find({ Genre: 'Action' }, { limit: 6 });
   },
-  comedyList() {
+  comedyList() { // returns list of 6 movies sorted by genre: comedy
     return Movie.find({ Genre: 'Comedy' }, { limit: 6 });
   },
-  romanceList() {
+  romanceList() { // returns list of 6 movies sorted by genre: romance
     return Movie.find({ Genre: 'Romance' }, { limit: 6 });
   },
-  trendingList() {
+  trendingList() { // returns list of 6 movies
     return Movie.find({}, { limit: 6 });
   },
-  /**
-   * @returns {*} All of the Stuff documents.
-   */
-  stuffList() {
-    return Stuff.find();
+  highestRatedList() { // returns list of 6 movies sorted by imdbRating thats greater than 8.0
+    return Movie.find({ imdbRating: { $gt: 7.9 } }, { limit: 6 });
   },
 });
