@@ -26,7 +26,11 @@ Template.Home_Page.helpers({
   },
 });
 
-$('img')
+Template.Home_Page.events({
+
+});
+$('.ui.item')
     .popup({
-      on: 'focus'
-    });
+      boundary: '.item',
+    })
+;
