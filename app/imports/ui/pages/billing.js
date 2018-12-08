@@ -1,7 +1,7 @@
 import { AutoForm } from 'meteor/aldeed:autoform';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { Template } from 'meteor/templating';
-import { Stuff } from '../../api/stuff/stuff.js';
+import { Billing } from '../../api/stuff/stuff';
 
 /* eslint-disable object-shorthand, no-unused-vars */
 
@@ -17,13 +17,13 @@ AutoForm.hooks({
      * @param result The result of form submission.
      */
     onSuccess: function onSuccess(formType, result) {
-      FlowRouter.go('List_Stuff_Page');
+      FlowRouter.go('Home_Page');
     },
   },
 });
 
-Template.Add_Stuff_Page.helpers({
+Template.Billing_Page.helpers({
   stuffCollection() {
-    return Stuff;
+    return Billing;
   },
 });

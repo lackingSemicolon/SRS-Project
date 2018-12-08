@@ -29,6 +29,13 @@ FlowRouter.route('/about', {
   },
 });
 
+FlowRouter.route('/billing', {
+  name: 'Billing_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Billing_Page' });
+  },
+});
+
 FlowRouter.notFound = {
   action() {
     BlazeLayout.render('App_Body', { main: 'App_Not_Found' });

@@ -1,0 +1,58 @@
+<template name="Billing_Page">
+  {{#If_Logged_In}}
+  <!--does nothing right right now-->
+    <!--<div style="padding-top: 20px; margin-top: 80px;" class="ui text container">
+      {{> quickForm
+      collection=stuffCollection
+      template="semanticUI"
+      id="AddStuffForm"
+      type="insert"
+      resetOnSuccess=true}}
+    </div>-->
+    <div style="padding-top: 20px;" class="ui text container borderless">
+      {{#autoForm
+          collection=stuffCollection
+          template="semanticUI"
+          id="AddStuffForm"
+          type="insert"
+          resetOnSuccess=true}}
+
+        <fieldset style="border: 0">
+          <div class="ui" style="margin-bottom: -10px"><h1>Billing Information:</h1></div>
+          <div class="ui divider" style="margin-bottom: 40px"></div>
+          <div class="ui fluid grid">
+            <div class="eight wide column" style=" color: white">
+              {{> afQuickField label-style="color: white" name='Name'}}
+            </div>
+            <div class="eight wide column">
+              {{> afQuickField label-style="color: white" name='Phone'}}
+            </div>
+            <div class="sixteen wide column">
+              {{> afQuickField label-style="color: white" name='Address'}}
+            </div>
+            <div class="eight wide column">
+              {{> afQuickField label-style="color: white" name='City'}}
+            </div>
+            <div class="eight wide column">
+              {{> afQuickField label-style="color: white" name='Zip'}}
+            </div>
+            <div class="sixteen wide column">
+              {{> afQuickField label-style="color: white" name='Card'}}
+            </div>
+            <div class="eight wide column">
+              {{> afQuickField label-style="color: white" name='CVV'}}
+            </div>
+            <div class="eight wide column">
+              {{> afQuickField label-style="color: white" name='Exp'}}
+            </div>
+          </div>
+        </fieldset>
+        <div class="ui buttons" style="padding: 30px 30% 0 30%;">
+          <button type="submit" class="ui yellow button fluid">Submit</button>
+          <div class="or"></div>
+          <button class="ui button"><div class="item ui" href="{{pathFor 'Home_Page'}}">Cancel</div></button>
+        </div>
+      {{/autoForm}}
+    </div>
+  {{/If_Logged_In}}
+</template>

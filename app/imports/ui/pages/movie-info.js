@@ -26,5 +26,6 @@ Template.Movie_Info.events({
     console.log(id);
 //    console.log(currentQuantity);
     Meteor.call('quantUpdate', { id, currentQuantity });
+    FlowRouter.go('Billing_Page');
   },
 });

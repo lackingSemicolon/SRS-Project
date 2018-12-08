@@ -7,9 +7,6 @@
     <nav class="main-nav">
       <a class="item navHead" href="{{pathFor 'Home_Page'}}">Home</a>
       <a class="item navHead" href="{{pathFor 'About_Page'}}">About</a>
-      {{#if currentUser}}
-        <a class="{{ isActiveRoute 'Home_Page'}} item navHead" href="{{ pathFor 'Home_Page' }}">Billing</a>
-      {{/if}}
     </nav>
     <nav class="sub-nav">
       <!-- looks weird right now still need to finalize layout

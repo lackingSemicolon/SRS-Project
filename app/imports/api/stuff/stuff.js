@@ -8,6 +8,7 @@ export const Movie = new Mongo.Collection('Movie');
 export const Drama = new Mongo.Collection('Drama');
 export const Action = new Mongo.Collection('Action');
 export const Horror = new Mongo.Collection('Horror');
+export const Billing = new Mongo.Collection('Billing');
 
 /**
  * Create the schema for Stuff
@@ -169,8 +170,76 @@ export const MovieSchema = new SimpleSchema({
   },
 });
 
+export const BillingSchema = new SimpleSchema({
+  Name: {
+    label: 'Name',
+    type: String,
+    max: 100,
+    autoform: {
+      group: 'Billing',
+    },
+  },
+  Address: {
+    label: 'Address',
+    type: String,
+    max: 250,
+    autoform: {
+      group: 'Billing',
+    },
+  },
+  City: {
+    label: 'City',
+    type: String,
+    max: 50,
+    autoform: {
+      group: 'Billing',
+    },
+  },
+  Zip: {
+    label: 'ZIP',
+    type: String,
+    max: 5,
+    autoform: {
+      group: 'Billing',
+    },
+  },
+  Phone: {
+    label: 'Phone Number',
+    type: String,
+    max: 10,
+    autoform: {
+      group: 'Billing',
+    },
+  },
+  Card: {
+    label: 'Card Number',
+    type: String,
+    max: 10,
+    autoform: {
+      group: 'Billing',
+    },
+  },
+  CVV: {
+    label: 'CVV',
+    type: String,
+    max: 3,
+    autoform: {
+      group: 'Billing',
+    },
+  },
+  Exp: {
+    label: 'Expiration Date',
+    type: String,
+    max: 5,
+    autoform: {
+      group: 'Billing',
+    },
+  },
+});
+
 Stuff.attachSchema(StuffSchema);
 Movie.attachSchema(MovieSchema);
 Drama.attachSchema(MovieSchema);
 Action.attachSchema(MovieSchema);
 Horror.attachSchema(MovieSchema);
+Billing.attachSchema(BillingSchema);
