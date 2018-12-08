@@ -27,7 +27,7 @@
       <h1 id="myList">Trending Now</h1>
       <div class="box">
         {{#each movie in trendingList}}
-          <a href="{{pathFor 'Movie_Info' _id=movie._id}}"><img src={{movie.HomePoster}} alt=""></a>
+          <a href="{{pathFor 'Movie_Info' _id=movie._id}}"><img src={{movie.HomePoster}} data-title="Elliot Fu" data-content="Elliot has been a member since July 2012" class="ui image"></a>
         {{/each}}
       </div>
 

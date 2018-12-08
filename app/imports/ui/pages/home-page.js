@@ -25,3 +25,8 @@ Template.Home_Page.helpers({
     return Movie.find({ imdbRating: { $gt: 7.9 } }, { limit: 6 });
   },
 });
+
+$('img')
+    .popup({
+      on: 'focus'
+    });

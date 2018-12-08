@@ -27,3 +27,10 @@ Template.Billing_Page.helpers({
     return Billing;
   },
 });
+
+
+Template.Billing_Page.events({
+  'click #cancel': function (event) {
+    FlowRouter.go('Home_Page');
+  },
+});
