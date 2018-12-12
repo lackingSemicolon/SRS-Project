@@ -1,6 +1,16 @@
 import { Template } from 'meteor/templating';
 import { Mongo } from 'meteor/mongo';
-import { Stuff, Movie } from '../../api/stuff/stuff.js';
+import { Movie } from '../../api/stuff/stuff.js';
+/*
+Template.Movie_Info.onRendered(function enablePopUp() {
+  this.$('.box .image')
+    .popup({
+      popup: this.$('.custom.popup'),
+      on: 'hover',
+      position: 'bottom left',
+    });
+});
+*/
 
 Template.Home_Page.helpers({
   dramaList() { // returns list of 6 movies sorted by genre: drama
@@ -29,8 +39,9 @@ Template.Home_Page.helpers({
 Template.Home_Page.events({
 
 });
+/*
 $('.ui.item')
     .popup({
       boundary: '.item',
     })
-;
+    */

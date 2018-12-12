@@ -3,49 +3,8 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 
 /* eslint-disable object-shorthand */
 
-export const Stuff = new Mongo.Collection('Stuff');
 export const Movie = new Mongo.Collection('Movie');
-export const Drama = new Mongo.Collection('Drama');
-export const Action = new Mongo.Collection('Action');
-export const Horror = new Mongo.Collection('Horror');
 export const Billing = new Mongo.Collection('Billing');
-
-/**
- * Create the schema for Stuff
- */
-export const StuffSchema = new SimpleSchema({
-  Title: {
-    label: 'Title',
-    type: String,
-    max: 100,
-    autoform: {
-      group: 'Stuff',
-    },
-  },
-  Poster: {
-    label: 'Poster',
-    type: String,
-    max: 250,
-    autoform: {
-      group: 'Stuff',
-    },
-  },
-  HomePoster: {
-    label: 'HomePoster',
-    type: String,
-    max: 250,
-    autoform: {
-      group: 'Stuff',
-    },
-  },
-  Quantity: {
-    label: 'Available',
-    type: Number,
-    autoform: {
-      group: 'Stuff',
-    },
-  },
-});
 
 export const MovieSchema = new SimpleSchema({
   Title: {
@@ -88,14 +47,14 @@ export const MovieSchema = new SimpleSchema({
       group: 'Movie',
     },
   },
-    Genre: {
-      label: 'Genre',
-      type: Array,
-      max: 100,
-      autoform: {
-        group: 'Movie',
-      },
+  Genre: {
+    label: 'Genre',
+    type: Array,
+    max: 100,
+    autoform: {
+      group: 'Movie',
     },
+  },
   'Genre.$': { type: String },
   Director: {
     label: 'Director',
@@ -197,7 +156,7 @@ export const BillingSchema = new SimpleSchema({
   },
   Zip: {
     label: 'ZIP',
-    type: String,
+    type: Number,
     max: 5,
     autoform: {
       group: 'Billing',
@@ -213,15 +172,15 @@ export const BillingSchema = new SimpleSchema({
   },
   Card: {
     label: 'Card Number',
-    type: String,
-    max: 10,
+    type: Number,
+    max: 16,
     autoform: {
       group: 'Billing',
     },
   },
   CVV: {
     label: 'CVV',
-    type: String,
+    type: Number,
     max: 3,
     autoform: {
       group: 'Billing',
@@ -237,9 +196,5 @@ export const BillingSchema = new SimpleSchema({
   },
 });
 
-Stuff.attachSchema(StuffSchema);
 Movie.attachSchema(MovieSchema);
-Drama.attachSchema(MovieSchema);
-Action.attachSchema(MovieSchema);
-Horror.attachSchema(MovieSchema);
 Billing.attachSchema(BillingSchema);

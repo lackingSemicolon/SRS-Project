@@ -1,7 +1,8 @@
+import { Meteor } from 'meteor/meteor';
 import { AutoForm } from 'meteor/aldeed:autoform';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { Template } from 'meteor/templating';
-import { Billing } from '../../api/stuff/stuff';
+import { Billing, Movie } from '../../api/stuff/stuff';
 
 /* eslint-disable object-shorthand, no-unused-vars */
 
@@ -17,6 +18,13 @@ AutoForm.hooks({
      * @param result The result of form submission.
      */
     onSuccess: function onSuccess(formType, result) {
+      //     console.log('you clicked the submit button');
+      const currentID = Movie.findOne(FlowRouter.getParam('_id'));
+      const currentQuantity = currentID.Quantity - 1;
+      const id = currentID._id;
+      console.log(currentID);
+      console.log(id);
+      Meteor.call('quantUpdate', { id, currentQuantity });
       FlowRouter.go('Home_Page');
     },
   },
@@ -27,7 +35,6 @@ Template.Billing_Page.helpers({
     return Billing;
   },
 });
-
 
 Template.Billing_Page.events({
   'click #cancel': function (event) {

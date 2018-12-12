@@ -29,7 +29,7 @@ FlowRouter.route('/about', {
   },
 });
 
-FlowRouter.route('/billing', {
+FlowRouter.route('/billing/:_id', {
   name: 'Billing_Page',
   action() {
     BlazeLayout.render('App_Body', { main: 'Billing_Page' });
