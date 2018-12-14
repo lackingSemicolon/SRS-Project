@@ -7,5 +7,13 @@ Tam Nguyen
 Kyle Voos
 Andres Gonzales-Flores
 
-Status:
-Designing phase
+Status: finished
+
+
+Requirements:
+Meteor:
+https://www.meteor.com/
+
+To install, navigate to the repo's 'app' folder and run 'meteor npm install'
+	and it should install all the required packages
+Then enter 'npm run start'
